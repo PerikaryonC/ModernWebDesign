@@ -61,17 +61,14 @@ The project includes an enterprise-grade hardened API server (`server/api.js`) a
 # Navigate to the project directory
 cd coffee-shop-website
 
-# Install dependencies (already installed)
+# Install dependencies
 npm install
 
-# Run the frontend dev server (default port 5173)
+# Run the frontend dev server
 npm run dev
 
-# Run the security-hardened backend API server (port 3001)
+# Run the security-hardened backend API server
 npm run server
-
-# Run the automated security test suite (11/11 tests)
-npm run test:security
 
 # Build production bundle
 npm run build
